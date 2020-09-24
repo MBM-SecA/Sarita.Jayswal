@@ -5,23 +5,24 @@ public class FileIO
 {
    public void LearnFileHandling()
    {
-       string fileName = "file.txt";
-      if (File.Exists(fileName))
-      {string fileContent = File.ReadAllText(fileName);
-      Console.WriteLine(fileContent);
-      }
-      File.WriteAllText(fileName,"This is a text file");
+      // string fileName = "file.txt";
+     // if (File.Exists(fileName))
+     // {string fileContent = File.ReadAllText(fileName);
+     // Console.WriteLine(fileContent);
+     // }
+      //File.WriteAllText(fileName,"This is a text file");
       
 
    }
  public  void LearnFileInfo()
    {
-       string fileName = "file.txt";
-       FileInfo fileInfo = new FileInfo(fileName);
-       var size = fileInfo.Length;
-       var createDate = fileInfo.CreationTime;
-       Console.WriteLine($"File Size: {size} bytes");
-       Console.WriteLine($"Created: {createDate}");
+      // string fileName = "file.txt";
+      // FileInfo fileInfo = new FileInfo(fileName);
+      // var size = fileInfo.Length;
+      // var createDate = fileInfo.CreationTime;
+      // Console.WriteLine($"File Size: {size} bytes");
+       //Console.WriteLine($"Created: {createDate}");
+
 
 
    }
