@@ -1,6 +1,6 @@
 using System;
 
-namespace webappmvc.Models
+namespace EmployeeManagement.Models
 {
     public class ErrorViewModel
     {
